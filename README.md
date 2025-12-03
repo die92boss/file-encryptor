@@ -1,4 +1,4 @@
-# 🔒 Secure File Cryptor
+# 🔒 File Encryptor
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -8,7 +8,6 @@ A modern, fast, and secure file encryption utility built with **Python** and **T
 It features a sleek Windows 11-style dark theme (via `sv-ttk`) and uses **AES-256-GCM** authenticated encryption to ensure your files remain private and tamper-proof.
 
 ![App Screenshot](screenshot.png)
-*(Add a screenshot of your app here named screenshot.png)*
 
 ## ✨ Features
 
@@ -23,8 +22,8 @@ It features a sleek Windows 11-style dark theme (via `sv-ttk`) and uses **AES-25
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/secure-file-cryptor.git
-    cd secure-file-cryptor
+    git clone https://github.com/die92boss/file-encryptor.git
+    cd file-encryptor
     ```
 
 2.  **Install dependencies:**
@@ -38,8 +37,6 @@ It features a sleek Windows 11-style dark theme (via `sv-ttk`) and uses **AES-25
     ```
 
 ## 🔐 Security Details
-
-This application is not just a UI wrapper; it implements standard cryptographic best practices:
 
 *   **Algorithm:** AES (Advanced Encryption Standard).
 *   **Mode:** GCM (Galois/Counter Mode) - Provides both confidentiality and integrity.
@@ -61,7 +58,3 @@ pyinstaller --noconsole --onefile --collect-all sv_ttk --icon=icon.ico encryptor
 ## ⚠️ Disclaimer
 
 This tool is provided for educational and personal use. While it uses industry-standard libraries (`cryptography`), always keep a backup of your important files before encryption. If you lose your password, **there is no recovery method**.
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
